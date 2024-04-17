@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Languages</title>
+    <link rel="stylesheet" href="pricing.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+
+.navbar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    padding-left: 350px;
+    gap: 100px;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+        .language-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            padding: 10px;
+        }
+
+        .language-box {
+            width: 100%;
+            height: 100px;
+            background-color: #2980b9;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .semiContainer{
+            padding-left: 500px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    
+    <nav class="navbar">
+        <a href="#" onclick="popup('investor')">Inventor Relations</a>
+        <a href="#" onclick="popup('language_tutorial')">Add Language Tutorial</a>
+        <a href="#" onclick="popup('login')">Pricing</a>
+        <a href="#" onclick="popup('signup')">About Us</a>
+    </nav>
+
+
+    <div class="main">
+        <p style="text-align: center; font-size: 50px;"><b>Come to learn TopSearchedlanguages with CodeBox</b></p>
+    </div>
+
+    <div class="language-container">
+        <div class="language-box">
+            <a href="Data.html" style="color: white;">DataScience</a>
+            </div>
+        <div class="language-box">
+            <a href="Artificial" style="color: white;">Artificial Intelligence</a>
+        </div>
+        <div class="language-box">
+            <a href="python.html" style="color: white;">Python</a>
+        </div>
+        <div class="language-box">
+            <a href="java.html" style="color: white;">Java</a>
+        </div>
+        <div class="language-box">
+            <a href="Javascript.html" style="color: white;">JavaScript</a>
+        </div>
+        <div class="language-box">
+            <a href="cpp.html" style="color: white;">CPP</a>
+        </div>
+        <div class="language-box">
+            <a href="dsss.html" style="color: white;">Data Structures</a>
+        </div>
+        <div class="language-box">
+            <a href="bt.html" style="color: white;">Bootstrap</a>
+        </div>
+    </div>
+
+    <section class="container get-the-app">
+        <div class="semiContainer">
+          <div class="left">
+            <img src="images/mobileBanner.png" alt="">
+          </div>
+          <div class="right">
+            <h1>Coding Supermacy</h1>
+            <p>
+              We will send you a link, Open it on your phone to view our app in your Mobile
+            </p>
+            <div class="radio-button-container">
+              <div>
+                <input type="radio" id="email" name="download-app">
+                <label for="email" style="font-size:14px">Email</label>
+              </div>
+              <div>
+                <input type="radio" id="phone" name="download-app">
+                <label for="phone" style="font-size:14px">Phone</label>
+              </div>
+            </div>
+            
+  <div class="container mt-5">
+    <div class="input-container">
+      <input type="email" placeholder="Email">
+      <a href="share athe link" class="btn btn-outline-success" style="color: grey;">Sharing our link</a>
+      <!-- <button onclick="shareAppLink()">Share App Link</button> -->
+    </div>
+  </div>
+            <div class="download-app-container">
+              
+              <div class="download-app-icons">
+                <img src="images/playStore.png" alt="">
+                <img src="images/appleStore.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <footer class="container footer">
+        <div class="footer-section1">
+          <img src="images/logo.png" alt="">
+          <div class="section1-buttoncontainer">
+            <button>
+              <img src="https://flagcdn.com/w40/in.png" alt="indian flag"
+              style="width:17px"
+              >India
+            </button>
+            <button><i class="fa fa-globe"></i>English</button>
+          </div>
+        </div>
+        <div class="navigation-container">
+          <div class="link-container">
+            <h5>ABOUT </h5>
+            <a href="#" class="footer-link">Who we are</a>
+            <a href="#" class="footer-link">Blogs</a>
+            <a href="#" class="footer-link">Work with us</a>
+            <a href="#" class="footer-link">Investor Relation</a>
+            <a href="#" class="footer-link">Report Fraud</a>
+          </div>
+  
+          <div class="link-container">
+            <h5>CodeBox</h5>
+  
+            <a href="#" class="footer-link">Coding</a>
+            <a href="#" class="footer-link">Learning India</a>
+            <a href="#" class="footer-link">Hyperpure</a>
+            <a href="#" class="footer-link">LanguageLand</a>
+  
+          </div>
+  
+          <div class="link-container">
+            <h5>FOR CODING PRACTISES</h5>
+            <a href="#" class="footer-link">Partner With Us</a>
+            <a href="#" class="footer-link">Apps for You</a>
+            <br/>
+            <h5>FOR ENTERPRISES</h5>
+            <a href="#" class="footer-link">Zomato For Work</a>
+  
+          </div>
+  
+          <div class="link-container">
+            <h5>Learn More</h5>
+  
+            <a href="#" class="footer-link">Privacy</a>
+            <a href="#" class="footer-link">Security</a>
+            <a href="#" class="footer-link">Terms</a>
+            <a href="#" class="footer-link">SiteMap</a>
+  
+  
+          </div>
+  
+          <div class="link-container">
+            <h5>SOCIAL LINKS</h5>
+            <div class="social-links-container">
+              <button onclick="alert('LinkedIn')"><i class="fab fa-linkedin-in"></i></button>
+              <button onclick="alert('Instagram')"><i class="fab fa-instagram"></i></button>
+              <button onclick="alert('Twitter')"><i class="fa-brands fa-twitter"></i></button>
+              <button onclick="alert('Google')"><i class="fa-brands fa-google"></i></button>
+              <button onclick="alert('GitHub')"><i class="fa-brands fa-github"></i></button>
+            </div>
+            <br>
+            <img src="images/appleStore.png" alt="footer appstore logo" class="footer-section-logos">
+            <img src="images/playStore.png" alt="footer playstore logo" class="footer-section-logos">
+          </div>
+  
+  
+  
+        </div>
+  
+        <div class="disclaimer">
+          By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Pvt Ltd. All rights reserved.
+        </div>
+  
+      </footer>
+  
+  
+   </body>
+  </html>
+    <p>Add or Text to personal E-mail for adding the Extra Languages and Queries</p>
+</body>
+</html>
